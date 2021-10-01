@@ -25,3 +25,12 @@ img {
   display: block;
   width: 100%;
 }
+
+nav ul {
+  display: flex
+  list-style: none;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+
+}
