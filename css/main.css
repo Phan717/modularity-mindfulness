@@ -26,14 +26,33 @@ img {
   width: 100%;
 }
 
-section ul{
-  margin-right: 1.5rem;
-  align-items: end;
-}
-
 hgroup {
   text-align: left;
   margin-left: 1.5rem;
+}
+
+section h1 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+section h2 {
+  text-align: left;
+  font-size: 1.125rem;
+  margin-top: 0;
+}
+
+section ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+  font-size: 1rem;
 }
 
 blockquote {
@@ -64,12 +83,16 @@ main li {
 
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  margin: 0;
-  padding: 0;
-  font-size: 1.125rem;
+main h2 {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
 }
+
+main h3 {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+main p {
+  margin-left: 1.5rem;
+  font-size: 1rem;
