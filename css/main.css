@@ -26,10 +26,37 @@ img {
   width: 100%;
 }
 
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items:
+}
+
+hgroup {
+  align-items: flex-start;
+  margin-left: 1.5rem;
+}
+
+nav ul {
+  margin-right: 1.5rem;
+}
+
+blockquote {
+  border-top: #e2e2e2 .2rem solid;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: #e2e2e2 .2rem solid;
+
+}
+
 ul {
-  display: flex
   list-style-type: none;
-  justify-content: end;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
   margin: 0;
-  padding left: : 0;
+  padding: 0;
+  font-size: 1.125rem;
 }
