@@ -26,10 +26,9 @@ img {
   width: 100%;
 }
 
-section {
-  display: flex;
-  justify-content: space-between;
-  align-items:
+section ul{
+  margin-right: 1.5rem;
+  align-items: end;
 }
 
 hgroup {
@@ -37,13 +36,10 @@ hgroup {
   margin-left: 1.5rem;
 }
 
-nav ul {
-  margin-right: 1.5rem;
-}
-
 blockquote {
   border-top: #e2e2e2 .2rem solid;
-  font-size: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
   text-align: center;
   padding: 1rem;
   text-align: center;
@@ -51,6 +47,9 @@ blockquote {
 
 }
 
+blockquote p {
+  font-size: 1rem;
+}
 ul {
   list-style-type: none;
   display: flex;
