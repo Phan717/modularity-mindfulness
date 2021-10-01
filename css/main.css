@@ -26,11 +26,10 @@ img {
   width: 100%;
 }
 
-nav ul {
+ul {
   display: flex
-  list-style: none;
+  list-style-type: none;
   justify-content: end;
   margin: 0;
-  padding: 0;
-
+  padding left: : 0;
 }
