@@ -63,7 +63,6 @@ blockquote {
   text-align: center;
   padding: 1rem;
   border-bottom: #e2e2e2 .2rem solid;
-
 }
 
 blockquote p {
@@ -105,4 +104,12 @@ main a {
   border: #3783a3 .2rem solid;
   border-radius: .3rem;
   padding: .5em 1em .6em;
+}
+
+@media only screen and (min-width: 38em) {
+  section {
+    display: flex;
+    align-items: center;
+
+  }
 }
