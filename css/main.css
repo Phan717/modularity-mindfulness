@@ -137,5 +137,20 @@ footer {
   section h2 {
     text-align: left;
   }
+}
+
+@media only screen and (min-width: 62em) {
+  blockquote {
+    margin: 0 16rem;
+  }
+
+  main {
+    margin-bottom: .75rem;
+  }
+
+  main p {
+    margin-bottom: 1rem;
+  }
+
 
 }
