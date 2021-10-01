@@ -50,6 +50,13 @@ blockquote {
 blockquote p {
   font-size: 1rem;
 }
+
+main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
 ul {
   list-style-type: none;
   display: flex;
