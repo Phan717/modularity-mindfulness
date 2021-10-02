@@ -66,7 +66,7 @@ blockquote {
   text-align: center;
   padding: 1rem;
   margin: 0 1rem;
-  padding-bottom: 1 0.75rem;
+  padding-bottom: 1.75rem;
   border-bottom: #e2e2e2 .2rem solid;
 }
 
@@ -110,8 +110,8 @@ main h3 {
 main p {
   text-align: left;
   font-size: 1rem;
-  margin-bottom: 2 0.1rem;
-  margin-top: 1 0.5rem;
+  margin-bottom: 2.1rem;
+  margin-top: 1.5rem;
 }
 
 main a {
@@ -162,7 +162,7 @@ ul li {
 
   hgroup {
     align-items: flex-start;
-    margin-left: 1 0.5rem;
+    margin-left: 1.5rem;
   }
 
   blockquote {
