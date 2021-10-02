@@ -138,11 +138,9 @@ ul li {
   font-size: 1.125rem;
 }
 
-li img {
-  margin-top: 0;
+div {
+  margin-bottom: .75rem;
 }
-
-
 
 nav ul {
   display: flex;
