@@ -9,7 +9,7 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 [lang="ja"] {
@@ -148,8 +148,8 @@ ul li {
   }
 
   section ul {
-    margin-right: 0.5rem;
-    margin-top: 0.75rem;
+    margin-right: .5rem;
+    margin-top: .75rem;
   }
 
   section h1 {
@@ -171,7 +171,7 @@ ul li {
   }
 
   div {
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
   }
 
   main ul {
@@ -183,12 +183,13 @@ ul li {
 }
 
 @media only screen and (min-width: 62em) {
+
   blockquote {
     margin: 0 16rem;
   }
 
   main {
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
   }
 
   main p {
