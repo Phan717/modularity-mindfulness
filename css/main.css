@@ -83,6 +83,7 @@ blockquote p {
 main ul {
   display: grid;
   padding: 0;
+  margin-bottom: auto;
 }
 
 main li {
