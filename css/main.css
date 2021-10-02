@@ -148,7 +148,7 @@ nav ul {
   padding-left: 0;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 38em) {
 
   section {
     display: flex;
@@ -195,9 +195,12 @@ nav ul {
     grid-gap: 1rem;
   }
 
+  main {
+    margin: 0;
+  }
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 62em) {
 
   blockquote {
     margin: 0 16rem;
