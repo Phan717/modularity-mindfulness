@@ -102,7 +102,7 @@ main h3 {
   list-style-type: none;
   text-align: left;
   font-size: 1rem;
-  margin-top: 1.2rem;
+  margin-top: .4rem;
   margin-bottom: 0;
 }
 
@@ -110,7 +110,7 @@ main p {
   text-align: left;
   font-size: 1rem;
   margin-bottom: 1.1rem;
-  margin-top: 1rem;
+  margin-top: 1.3rem;
 }
 
 main a {
