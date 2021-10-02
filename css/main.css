@@ -129,8 +129,9 @@ main a {
 footer {
   border-top: #e2e2e2 .2rem solid;
   text-align: center;
-  font-size: .75rem;
-  padding: 1rem;
+  font-size: .85rem;
+  padding: 1.125rem;
+  margin-bottom: 0;
 }
 
 ul li {
