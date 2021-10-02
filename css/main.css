@@ -65,9 +65,9 @@ blockquote {
   border-top: #e2e2e2 .2rem solid;
   text-align: center;
   padding: 1rem;
+  margin: 0 1rem;
+  padding-bottom: 1 0.75rem;
   border-bottom: #e2e2e2 .2rem solid;
-  margin: 0 1;
-  padding-bottom: 1 .75rem;
 }
 
 blockquote i {
@@ -110,8 +110,8 @@ main h3 {
 main p {
   text-align: left;
   font-size: 1rem;
-  margin-bottom: 2 .1rem;
-  margin-top: 1 .5rem;
+  margin-bottom: 2 0.1rem;
+  margin-top: 1 0.5rem;
 }
 
 main a {
@@ -144,12 +144,12 @@ ul li {
   section {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   section ul {
-    margin-right: .5rem;
-    margin-top: .75rem;
+    margin-right: 0.5rem;
+    margin-top: 0.75rem;
   }
 
   section h1 {
@@ -159,6 +159,27 @@ ul li {
   section h2 {
     text-align: left;
   }
+
+  hgroup {
+    align-items: flex-start;
+    margin-left: 1 0.5rem;
+  }
+
+  blockquote {
+    margin: 0 4rem;
+    padding-bottom: 2rem;
+  }
+
+  div {
+    margin-bottom: 0.75rem;
+  }
+
+  main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 62em) {
@@ -167,7 +188,7 @@ ul li {
   }
 
   main {
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
 
   main p {
